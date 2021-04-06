@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "build": "lerna build"
+    "build": "lerna build",
+    "root:serve": "cd packages/root-app && npm run serve",
+    "plugin-demo:serve": "cd plugins/demo-plugin && npm run serve"
   },
   "dependencies": {
     "core-js": "^3.6.5",
