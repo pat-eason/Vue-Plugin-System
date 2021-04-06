@@ -1,0 +1,14 @@
+{
+  "name": "@vps-common/app",
+  "version": "1.0.0",
+  "description": "Application support libraries for Vue Plugin System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pat Eason <patrick@pateason.io>",
+  "license": "ISC",
+  "dependencies": {
+    "@vps-common/utils": "1.0.0"
+  }
+}

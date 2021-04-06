@@ -4,7 +4,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "build": "lerna build",
-    "root:serve": "cd packages/root-app && npm run serve",
+    "root:serve": "cd apps/root-app && npm run serve",
     "plugin-demo:serve": "cd plugins/demo-plugin && npm run serve"
   },
   "dependencies": {
