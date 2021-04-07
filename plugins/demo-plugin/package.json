@@ -1,14 +1,22 @@
 {
-  "name": "demo-plugin",
+  "name": "@vps-plugin/demo",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/vpsPlugin_demo.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/types/src/main-plugin.d.ts",
+  "typings": "./dist/types/src/main-plugin.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:library": "vue-cli-service build --target lib --name vpsPlugin_demo ./src/main-plugin.ts",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vps-common/plugin": "1.0.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",

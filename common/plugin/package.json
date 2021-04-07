@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pat Eason <patrick@pateason.io>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@vps-common/utils": "1.0.0"
+  }
 }

@@ -11,6 +11,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
   },
+  ignorePatterns: ['node_modules', 'node_modules/@vps-plugin/**/*.js'],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
